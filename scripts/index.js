@@ -51,3 +51,19 @@ while (run) {
         }
     }
 }
+
+//Furahi day
+let run = true 
+
+while (run) {
+    let number = prompt("Enter a numbbre or 0 to terminate");
+    if ( number == 0) {
+        if( numbre === 10){
+            run = false;
+            break;
+        }
+
+        oddEvem( numbre )
+    }
+}
+
