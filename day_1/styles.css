@@ -95,6 +95,23 @@ button:focus-visible,
   overflow-wrap: anywhere;
 }
 
+.note {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+ 
+.delete-btn {
+  background-color: #8e0000;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+}
+ 
+.delete-btn:hover {
+  background-color: #6b0000;
+}
+
 footer {
   text-align: center;
   color: #595959;
