@@ -6,12 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 class="paragraph">Hello I am starting software engineering</h1>
-    <a href="https://www.google.com" id="paragraph"> Hello This is a link to direct me to google</a>
-    <p>I like to design beautiful user interfaces and also make software that can help people</p>
-    <button> Click Me</button>
-    <button class="shenzi-dont-click">Shenzi, Don't Click Me</button>
-    
+    <button id="theme-toggle" type="button">Dark mode</button>
+
+    <label for="note-text">Write your note:</label>
+    <textarea id="note-text" rows="8" cols="40"></textarea>
+
+    <p id="char-count">0 / 200 characters</p>
+    <p id="word-count">0 words</p>
+
+    <button id="clear-btn" type="button">Clear</button>
     <script src="dom.js"></script>
 </body>
 </html>
