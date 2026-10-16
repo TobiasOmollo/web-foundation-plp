@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Directory</title>
+  <script src="users.js" defer></script>
+  <link rel="stylesheet" href="userstyles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>User Directory</h1>
+  </header>
+
+  <main>
+    <button type="button" id="load-users">Load Users</button>
+
+    <div>
+      <label for="filter-input">Filter by name</label>
+      <input type="text" id="filter-input" placeholder="Type a name..." autocomplete="off">
+    </div>
+
+    <p id="status" aria-live="polite"></p>
+
+    <ul id="users-list"></ul>
+  </main>
+
+</body>
+
+</html>
